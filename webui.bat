@@ -3,7 +3,7 @@
 if not defined PYTHON (set PYTHON=python)
 if not defined VENV_DIR (set "VENV_DIR=%~dp0%venv")
 
-set 'PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:512'
+@REM set 'PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:512'
 set ERROR_REPORTING=FALSE
 
 mkdir tmp 2>NUL
